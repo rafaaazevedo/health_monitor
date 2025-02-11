@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "851867851826",
+    "firebase_url": "https://biomonitordb-default-rtdb.firebaseio.com",
+    "project_id": "biomonitordb",
+    "storage_bucket": "biomonitordb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851867851826:android:dfe2d43eaed9cb02d4302b",
+        "android_client_info": {
+          "package_name": "com.health_monitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsU1aR9q-fI8CmJaBHKw02kUNtPS6rJ7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
