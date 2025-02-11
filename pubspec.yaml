@@ -69,6 +69,7 @@ flutter:
     - lib/assets/images/coracao_ecg.png
     - lib/assets/images/Update-bro.png
     - lib/assets/images/Data-bro.png
+    - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

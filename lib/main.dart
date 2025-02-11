@@ -6,8 +6,12 @@ import 'login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
-  await dotenv.load();
+
+  try {
+    await dotenv.load(fileName: ".env"); // Carrega as variáveis de ambiente
+  } catch (e) {
+    throw Exception('Error loading .env file: $e');
+  }
 
   await Firebase.initializeApp(
   options: FirebaseOptions(
